@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Test Report</title>
+    <meta name="generator" content="HTMLTestRunner 1.1.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+    <style>
+        
+    </style>
+    <script>
+        
+    </script>
+</head>
+<body>
+<div class='heading'>
+    <h1 style="margin-left:1ex;">Unit Test Report</h1>
+    
+    <p class='attribute'><strong>Start Time : </strong> 2025-02-10 12:22:44</p>
+    
+    <p class='attribute'><strong>Duration : </strong> 0:00:11.192877</p>
+    
+    <p class='attribute'><strong>Status : </strong> Error 2</p>
+    
+    <p class='attribute'><strong>Description : </strong> Test report generation using HTMLTestRunner-rv</p>
+    
+    <p class='attribute'><strong>Tested By : </strong> Unknown</p>
+    
+</div>
+<div>
+    <p id='show_detail_line'><b>Show</b>
+        <button><a href='javascript:showCase(0)' style="color:#660066;">Summary</a></button>
+        <button><a href='javascript:showCase(1)' style="color:#660066;">Failed</a></button>
+        <button><a href='javascript:showCase(2)' style="color:#660066;">Passed</a></button>
+        <button><a href='javascript:showCase(3)' style="color:#660066;">All</a></button>
+    </p>
+    <table id='result_table'>
+        <colgroup>
+            <col align='left'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+        </colgroup>
+        <tr id='header_row'>
+            <td>Test Group/Test case</td>
+            <td>Count</td>
+            <td>Pass</td>
+            <td>Fail</td>
+            <td>Error</td>
+            <td>View</td>
+        </tr>
+        
+        <tr class='errorClass' style="font-weight:bold;color:white;">
+            <td><a href="javascript:showClassDetail('c1','1')">test_admin_new_product.CreateNewProductTest</a></td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>
+                <button><a href="javascript:showClassDetail('c1','1')"
+                           style="color:#660066;">Detail</a></button>
+            </td>
+        </tr>
+            
+            <tr id="ft1.1" class='none'>
+                <td class='errorCase'>
+                    <div class='testcase'>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_ft1.1')">test_creat_new_product_successfully</a>
+                    </div>
+                </td>
+                <td colspan='5' align='center'>
+                    <div>
+                        <!--css div popup start-->
+                        <button>
+                            <a class="popup_link" onfocus='this.blur();'
+                               href="javascript:showTestDetail('div_ft1.1')" style="color:#660066;">
+                                ERROR
+                            </a></button>
+                        <div id='div_ft1.1' class="popup_window">
+                            <div style='text-align: right; color:red;cursor:pointer'>
+                                <a onfocus='this.blur();'
+                                   onclick="document.getElementById('div_ft1.1').style.display = 'none'; "
+                                   style="color:red;">
+                                    [x]</a>
+                            </div>
+                            <pre></pre>
+                            <pre style="color: red;">Traceback (most recent call last):
+  File "D:\e-comment\e-commerce-for-test-automation\tests\test_admin_new_product.py", line 29, in setUp
+    self.driver = BrowserSetup.get_driver()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\e-comment\e-commerce-for-test-automation\utils\browser_setup.py", line 16, in get_driver
+    driver = webdriver.Chrome(service=service)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Python312\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "C:\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "C:\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 299, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 130
+Current browser version is 133.0.6943.59 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A9B13AF5+28005]
+	(No symbol) [0x00007FF6A9A783F0]
+	(No symbol) [0x00007FF6A991580A]
+	(No symbol) [0x00007FF6A9954397]
+	(No symbol) [0x00007FF6A9953465]
+	(No symbol) [0x00007FF6A994DB25]
+	(No symbol) [0x00007FF6A9948DAE]
+	(No symbol) [0x00007FF6A9996C71]
+	(No symbol) [0x00007FF6A99962F0]
+	(No symbol) [0x00007FF6A998B7E3]
+	(No symbol) [0x00007FF6A99575C8]
+	(No symbol) [0x00007FF6A9958731]
+	GetHandleVerifier [0x00007FF6A9E0646D+3118813]
+	GetHandleVerifier [0x00007FF6A9E56CC0+3448624]
+	GetHandleVerifier [0x00007FF6A9E4CF3D+3408301]
+	GetHandleVerifier [0x00007FF6A9BDA44B+841403]
+	(No symbol) [0x00007FF6A9A8344F]
+	(No symbol) [0x00007FF6A9A7F4C4]
+	(No symbol) [0x00007FF6A9A7F65D]
+	(No symbol) [0x00007FF6A9A6EBB9]
+	BaseThreadInitThunk [0x00007FFA6AD06FD4+20]
+	RtlUserThreadStart [0x00007FFA6B27CEC1+33]
+
+</pre>
+                        </div>
+                        <!--css div popup end-->
+                    </div>
+                </td>
+            </tr>
+            
+        
+        <tr class='errorClass' style="font-weight:bold;color:white;">
+            <td><a href="javascript:showClassDetail('c2','1')">test_login.LoginTest</a></td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>
+                <button><a href="javascript:showClassDetail('c2','1')"
+                           style="color:#660066;">Detail</a></button>
+            </td>
+        </tr>
+            
+            <tr id="ft2.1" class='none'>
+                <td class='errorCase'>
+                    <div class='testcase'>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_ft2.1')">test_valid_login_with_admin_account</a>
+                    </div>
+                </td>
+                <td colspan='5' align='center'>
+                    <div>
+                        <!--css div popup start-->
+                        <button>
+                            <a class="popup_link" onfocus='this.blur();'
+                               href="javascript:showTestDetail('div_ft2.1')" style="color:#660066;">
+                                ERROR
+                            </a></button>
+                        <div id='div_ft2.1' class="popup_window">
+                            <div style='text-align: right; color:red;cursor:pointer'>
+                                <a onfocus='this.blur();'
+                                   onclick="document.getElementById('div_ft2.1').style.display = 'none'; "
+                                   style="color:red;">
+                                    [x]</a>
+                            </div>
+                            <pre></pre>
+                            <pre style="color: red;">Traceback (most recent call last):
+  File "D:\e-comment\e-commerce-for-test-automation\tests\test_login.py", line 26, in setUp
+    self.driver = BrowserSetup.get_driver()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\e-comment\e-commerce-for-test-automation\utils\browser_setup.py", line 16, in get_driver
+    driver = webdriver.Chrome(service=service)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Python312\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "C:\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "C:\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 299, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 130
+Current browser version is 133.0.6943.59 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A9B13AF5+28005]
+	(No symbol) [0x00007FF6A9A783F0]
+	(No symbol) [0x00007FF6A991580A]
+	(No symbol) [0x00007FF6A9954397]
+	(No symbol) [0x00007FF6A9953465]
+	(No symbol) [0x00007FF6A994DB25]
+	(No symbol) [0x00007FF6A9948DAE]
+	(No symbol) [0x00007FF6A9996C71]
+	(No symbol) [0x00007FF6A99962F0]
+	(No symbol) [0x00007FF6A998B7E3]
+	(No symbol) [0x00007FF6A99575C8]
+	(No symbol) [0x00007FF6A9958731]
+	GetHandleVerifier [0x00007FF6A9E0646D+3118813]
+	GetHandleVerifier [0x00007FF6A9E56CC0+3448624]
+	GetHandleVerifier [0x00007FF6A9E4CF3D+3408301]
+	GetHandleVerifier [0x00007FF6A9BDA44B+841403]
+	(No symbol) [0x00007FF6A9A8344F]
+	(No symbol) [0x00007FF6A9A7F4C4]
+	(No symbol) [0x00007FF6A9A7F65D]
+	(No symbol) [0x00007FF6A9A6EBB9]
+	BaseThreadInitThunk [0x00007FFA6AD06FD4+20]
+	RtlUserThreadStart [0x00007FFA6B27CEC1+33]
+
+</pre>
+                        </div>
+                        <!--css div popup end-->
+                    </div>
+                </td>
+            </tr>
+            
+        
+
+        <tr id='total_row'>
+            <td>Total</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</div>
+<br><br>
+<div id='ending'><b>Time Elapsed: </b>0:00:11.192877</div>
+</body>
+</html>
